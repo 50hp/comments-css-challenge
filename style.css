@@ -1,0 +1,57 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.comment {
+    margin: 20px;
+    padding: 20px;
+}
+
+.commentReply {
+
+
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+.comment {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex */
+
+}
+.postInfo {
+
+    display: flex;
+
+}
+.commentReply {
+
+    display: flex;
+
+}
+.votes {
+    display: flex;
+    flex-direction: column;
+
+}
+
+vote{
+
+    display: flex;
+
+}
