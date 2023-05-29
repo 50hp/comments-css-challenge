@@ -2,22 +2,11 @@ body{
 
     display: flex;
     flex-direction: column;
+    background-color: lightgray;
     justify-content: center;
 
 }
 
-.comment {
-    margin: 20px;
-    padding: 20px;
-}
-
-.commentReply {
-
-
-    margin: 20px;
-    padding: 20px;
-
-}
 
 .attribution { 
     font-size: 11px; 
@@ -28,30 +17,77 @@ body{
     color: hsl(228, 45%, 44%); 
 }
 
-.comment {
-    display: flex;
-    /* flex-direction: row; */
-    /* flex */
-
-}
 .postInfo {
-
     display: flex;
 
 }
-.commentReply {
-
-    display: flex;
-
+.response {
+    
 }
+
 .votes {
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: hsl(238, 40%, 52%);
+    border-radius: 1px;
 }
 
 vote{
-
     display: flex;
+}
+.comment {
+    max-width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.author {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.date {
+    color: lightgray;
+    margin-left: 20px;
+}
+
+.reply {
+    color: blue;
+    justify-content: left;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+
+.authorPic {
+    padding-left: 20px;
+    width: auto;
+    height: 1.7em;
+}
+
+.postInfo {
+    margin-left: 50px;
+    display: flex;
+    height: 1.2em;
+    margin-bottom: 10px;
+}
+
+.postBody {
+    margin-left: 50px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
 
 }
